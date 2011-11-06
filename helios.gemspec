@@ -3,7 +3,6 @@ require File.expand_path('../lib/helios/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "helios"
-  s.version     = Helios::VERSION.dup
   s.authors     = ["Rafael Chacon"]
   s.email       = ["rafaelchacon@gmail.com"]
   s.homepage    = ""
@@ -21,4 +20,5 @@ Gem::Specification.new do |s|
   # specify any dependencies here; for example:
   # s.add_development_dependency "rspec"
   # s.add_runtime_dependency "rest-client"
+  s.version     = Helios::VERSION
 end
